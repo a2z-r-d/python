@@ -20,4 +20,7 @@ pip list
 
 pip freeze > requirements.txt
 
+# To diactivate current virtual environment
+deactivate
+
 ```
