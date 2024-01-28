@@ -34,4 +34,7 @@ mkdir my_project
 python3 -m venv my_project/venv
 # Then activate the venv into the project
 source my_project/venv/bin/activate
+
+# Now install modules from the requirements.txt file
+
 ```
