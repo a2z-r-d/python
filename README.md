@@ -35,6 +35,10 @@ python3 -m venv my_project/venv
 # Then activate the venv into the project
 source my_project/venv/bin/activate
 
-# Now install modules from the requirements.txt file
+# Now install packages/modules from the requirements.txt file
+pip install -r requirements.txt
 
+
+# To get access to the global packages
+python3 -m venv venv --system-site-packages
 ```
