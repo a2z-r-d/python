@@ -16,8 +16,8 @@ pip install pytz
 # To list module
 pip list
 
-# To create requires.txt
+# To create requirements.txt
 
-pip freeze > requires.txt
+pip freeze > requirements.txt
 
 ```
