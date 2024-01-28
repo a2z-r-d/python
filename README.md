@@ -23,4 +23,7 @@ pip freeze > requirements.txt
 # To diactivate current virtual environment
 deactivate
 
+# To delete virtual environment simple delete the directory
+
+rm -rf project_env/
 ```
