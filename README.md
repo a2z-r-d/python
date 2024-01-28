@@ -41,4 +41,23 @@ pip install -r requirements.txt
 
 # To get access to the global packages
 python3 -m venv venv --system-site-packages
+
+source venv/bin/activate
+# Now do pip list it will list all the package installed globally
+
+(venv) my_project$ pip list
+
+# The output is given below
+
+Package            Version
+------------------ ----------
+certifi            2023.11.17
+charset-normalizer 3.3.2
+idna               3.6
+pip                23.2.1
+requests           2.31.0
+urllib3            2.1.0
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
 ```
