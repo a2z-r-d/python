@@ -60,4 +60,7 @@ urllib3            2.1.0
 
 [notice] A new release of pip is available: 23.2.1 -> 23.3.2
 [notice] To update, run: pip install --upgrade pip
+
+# By this way if you install additional packages after activating the virtual environment
+# It will not install or affect to the global packages.
 ```
