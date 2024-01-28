@@ -63,4 +63,39 @@ urllib3            2.1.0
 
 # By this way if you install additional packages after activating the virtual environment
 # It will not install or affect to the global packages.
+
+# To list the packages only installed in activated virtual environment is below:
+pip list --local
+
+
+# Example of installing and listing only packages are installed in local
+(venv) my_project$ pip install flux
+Collecting flux
+  Downloading flux-1.3.5.tar.gz (13 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Installing backend dependencies ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: flux
+  Building wheel for flux (pyproject.toml) ... done
+  Created wheel for flux: filename=flux-1.3.5-py3-none-any.whl size=6255 sha256=4bf4fba9c2e3cf18922e7e95b4c3cc9752d173d2ca34c0afc3b4affede25ca51
+  Stored in directory: /Users/assad/Library/Caches/pip/wheels/42/08/f8/48bb835135176d37a94cd76f50f3839f8e6ac91e783b4ba96c
+Successfully built flux
+Installing collected packages: flux
+Successfully installed flux-1.3.5
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
+(venv) my_project$ pip list --local
+Package Version
+------- -------
+flux    1.3.5
+pip     23.2.1
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
+
+
+
+
 ```
